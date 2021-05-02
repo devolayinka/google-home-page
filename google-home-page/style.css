@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(250, 244, 244);   
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    margin-left:auto;
+    width:20%;
+    margin-top:1rem;
+}
+nav a{
+text-decoration:none;
+color:black;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+nav .img{
+    width:20px;
+}
+.logo{
+    width:;
+}
+nav .images{
+    border-radius:50%;
+    color:white;
+    width:25px;
+    margin-bottom:auto;
+}
+main{
+    text-align:center;
+    margin:5rem auto;
+    width:50%;
+}
+main .logo{
+    width:40%;
+}
+main input{
+ width:80%;
+ padding:10px;
+ border-radius:20px;
+ border:1px solid gray;
+ margin-bottom:1.2rem;
+ outline:none;
+}
+.button button{
+ margin:0 10px;
+ padding:10px;
+ border:none;
+ outline:none;
+}
+.tribe{
+    display:flex;
+    justify-content: center;
+}
+.tribe p{
+    margin-top:0.65rem
+}
+.tribe ul li{
+    display:inline-block;
+    margin:0 5px;
+    margin-top:0.65rem;
+    margin-left:0.3rem;
+}
+.tribe ul li a{
+    text-decoration:none;
+    text-transform:capitalize;
+}
+.tribe ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+   
+}
+footer ul{
+    list-style-type: none;
+    margin-top:15.5rem;
+}
+footer li {
+    display:inline-block;  
+}
+footer a{
+    text-decoration:none;
+    padding:1rem;
+    text-transform: capitalize;
+}
+footer a:hover{
+    text-decoration:underline;
+}
+@media (max-width:640px){
+    nav{
+        display:flex;
+        justify-content:space-around;
+        margin-left:auto;
+        width:40%;
+        margin-top:1rem;
+    }
+ main{
+    margin:5rem auto;
+    width:100%;  
+ }
+.logo{
+    width:50%
+}
+.tribe{
+    display:grid;
+   place-items: center;
+}
+.tribe p{
+    margin-top:0.65rem
+}
+.tribe ul li{
+    display:inline-block;
+    margin:0 5px;
+    margin-top:0.65rem;
+    margin-left:0.3rem;
+}
+.tribe ul li a{
+    text-decoration:none;
+    text-transform:capitalize;
+}
+.tribe ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    display:grid;
+    justify-content: space-around;
+   
+}
+footer ul{
+    list-style-type: none;
+    margin-top:1.5rem;
+}
+footer li {
+    display:inline-block;  
+}
+footer a{
+    text-decoration:none;
+    padding:1rem;
+    text-transform: capitalize;
+}
+footer a:hover{
+    text-decoration:underline;
+}
+}
+@media (max-width:900px){
+    nav{
+        display:flex;
+        justify-content:space-around;
+        margin-left:auto;
+        width:30%;
+        margin-top:1.5rem;
+    }
+    main{
+        margin:5rem auto;
+        width:100%;  
+     }
+    .logo{
+        width:50%
+    }
+    .tribe{
+        display:grid;
+       place-items: center;
+    }
+    .tribe p{
+        margin-top:0.65rem
+    }
+    .tribe ul li{
+        display:inline-block;
+        margin:0 5px;
+        margin-top:0.65rem;
+        margin-left:0.3rem;
+    }
+    .tribe ul li a{
+        text-decoration:none;
+        text-transform:capitalize;
+    }
+    .tribe ul li a:hover{
+        text-decoration: underline;
+    }  
+}
